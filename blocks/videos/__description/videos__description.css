@@ -1,0 +1,27 @@
+.videos__description {
+    max-width: 640px;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 auto 5.4% auto;
+}
+
+@media (max-width: 1024px) {
+    .videos__description {
+      margin-bottom: 6.9%;
+    }
+}
+
+@media (max-width: 768px) {
+    .videos__description {
+      margin-bottom: 6.6%;
+    }
+}
+
+@media (max-width: 768px) {
+    .videos__description {
+      font-size: 16px;
+      line-height: 23px;
+    }
+}
+

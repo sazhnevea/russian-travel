@@ -1,0 +1,28 @@
+.videos {
+    margin-bottom: 7%;
+}
+
+@media (max-width: 1280px) {
+    .videos {
+        margin-bottom: 8%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .videos {
+        margin-bottom: 10.8%;
+    }
+}
+
+@media (max-width: 768px) {
+    .videos {
+        margin-bottom: 13.5%;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .videos {
+        margin-bottom: 21.5%;
+    }
+}

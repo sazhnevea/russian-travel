@@ -1,0 +1,11 @@
+.comments__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .comments__items {
+        flex-direction: column;
+        align-items: center;
+    }
+}

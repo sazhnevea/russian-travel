@@ -1,0 +1,12 @@
+.link--type-normal {
+    font-size: 24px;
+}
+
+
+@media (max-width: 768px) {
+    .link--type-normal {
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 300;
+    }
+}

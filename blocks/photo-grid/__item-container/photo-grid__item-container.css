@@ -1,0 +1,29 @@
+.photo-grid__item-container {
+    margin-bottom: 1%;
+}
+
+@media (max-width: 1024px) {
+    .photo-grid__item-container   {
+      width: 32.4%;
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-grid__item-container   {
+      width: 49%;
+      margin-bottom: 1.8%;
+    }
+}
+
+@media (max-width: 375px) {
+  .photo-grid__item-container   {
+      width: 100%;
+      margin-bottom: 5.3%;
+  }
+}
+
+@media (max-width: 375px) {
+  .photo-grid__item-container   {
+      margin-bottom: 1.1%;
+  }
+}

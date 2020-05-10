@@ -1,0 +1,33 @@
+.ad__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .ad__title {
+        width: 54%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ad__title {
+        width: 70%;
+        margin-bottom: 1%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ad__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 375px) {
+    .ad__title {
+        width: 65%;
+    }
+}
+         

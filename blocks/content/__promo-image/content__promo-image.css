@@ -1,0 +1,9 @@
+.content__promo-image {
+    width: 100%;
+}
+
+@media (max-width: 320px) {
+  .content__promo-image {
+    height: 211px;
+  }
+}

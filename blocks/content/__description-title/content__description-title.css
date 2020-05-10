@@ -1,0 +1,40 @@
+.content__description-title {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 59px;
+    margin-bottom: 5.1%;
+}
+
+
+@media (max-width: 768px) {
+    .content__description-title {
+        white-space: nowrap;
+        margin-bottom: 5.6%;
+    }
+}
+
+@media (max-width: 375px) {
+    .content__description-title {
+        font-size: 40px;
+        line-height: 44px;
+        white-space: normal;
+    }
+}
+
+@media (max-width: 375px) {
+    .content__description-title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: 19%;
+        margin-bottom: 8.1%;
+        width: 70%;
+    }
+}
+
+@media (max-width: 375px) {
+    .content__description-title {
+        width: 75%;
+        margin-bottom: 13.1%;
+    }
+}
+

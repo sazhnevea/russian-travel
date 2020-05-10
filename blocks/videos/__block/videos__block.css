@@ -1,0 +1,10 @@
+.videos__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 375px) {
+    .videos__block {
+        flex-direction: column;
+    }
+}

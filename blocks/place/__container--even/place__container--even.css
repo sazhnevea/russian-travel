@@ -1,0 +1,17 @@
+.place__container--even {
+    width: 49%;
+  }
+
+@media (max-width: 375px) {
+    .place__container--even {
+      width: 340px;
+      padding: 0 4%;
+  }
+}
+
+@media (max-width: 320px) {
+    .place__container--even {
+      width: 88%;
+      padding: 0 4%;
+  }
+}

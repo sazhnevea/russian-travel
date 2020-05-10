@@ -1,0 +1,19 @@
+{
+  "name": "traveling",
+  "version": "1.0.0",
+  "description": "Web-site about traveling",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "keywords": [
+    "travel"
+  ],
+  "author": "Evgenii Sazhnev <sazhnevea@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  }
+}
