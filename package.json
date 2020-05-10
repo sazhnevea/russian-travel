@@ -4,7 +4,8 @@
   "description": "Web-site about traveling",
   "main": "index.js",
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "start": "index.html"
   },
   "keywords": [
     "travel"
