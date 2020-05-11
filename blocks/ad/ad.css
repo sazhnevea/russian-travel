@@ -1,0 +1,34 @@
+.ad {
+    max-width: 1184px;
+    height: 594px;
+    background: url(../../static/img/bottom-background.jpg) #2A2C2F no-repeat;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .ad {
+        width: 100%;
+        height: 562px;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .ad {
+        height: 500px;
+    }
+}
+
+@media (max-width: 375px) {
+    .ad {
+        height: 272px;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 320px) {
+    .ad {
+        height: 216px;
+            width: 320px;
+    }
+}

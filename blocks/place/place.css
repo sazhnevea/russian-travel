@@ -1,0 +1,13 @@
+.place {
+    max-width: 984px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 375px) {
+    .place {
+        flex-direction: column;
+        width: 100%;
+    }
+}

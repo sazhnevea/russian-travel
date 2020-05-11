@@ -1,0 +1,37 @@
+.content__subtitle {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 583px;
+    text-align: center;
+    margin: 3.1% auto 5.8% auto;
+}
+
+@media (max-width: 1024px) {
+    .content__subtitle {
+      margin-bottom: 6%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content__subtitle {
+      max-width: 85%;
+      margin-top: 4.1%;
+      margin-bottom: 9%;
+    }
+}
+
+
+@media (max-width: 375px) {
+  .content__subtitle {
+      font-size: 16px;
+      line-height: 23px;
+      margin-top: 3.5%;
+  }
+}
+
+@media (max-width: 320px) {
+  .content__subtitle {
+      margin-bottom: 11%;
+  }
+}

@@ -1,0 +1,5 @@
+@media (max-width: 375px) {
+  .page__container--places {
+    padding: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.content__promo {
+    max-width: 984px;
+    margin: 0 auto 6.5% auto;
+}
+
+
+@media (max-width: 1024px) {
+    .content__promo  {
+      margin-bottom: 8.5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content__promo  {
+      margin-bottom: 9.5%;
+    }
+}
+
+@media (max-width: 320px) {
+  .content__promo  {
+      margin-bottom: 20.5%;
+  }
+}

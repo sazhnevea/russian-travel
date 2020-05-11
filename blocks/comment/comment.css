@@ -1,0 +1,19 @@
+.comment {
+  width: 32%;
+}
+
+@media (max-width: 768px) {
+  .comment {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .comment {
+    margin-bottom: 11%;
+  }
+}
