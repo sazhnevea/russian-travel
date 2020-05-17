@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "gulp": "gulp",
-    "start": "index.html"
+    "start": "node server/server.js"
   },
   "keywords": [
     "travel"
